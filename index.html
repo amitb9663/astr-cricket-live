@@ -1,101 +1,249 @@
-<!---FLOWPLAYER CODES STARTS HERE---->
-
-<link href="//releases.flowplayer.org/7.2.5/skin/skin.css" rel="stylesheet"></link>
-
-<link href="//demos.flowplayer.com/media/css/demo.css" rel="stylesheet"></link>
-
-<link href="//demos.flowplayer.com/media/css/pygments.css" rel="stylesheet"></link>
-
-<style>
-
-.flowplayer {
-
-  background-color: #333333;  height: 380px; width: 100%;
-
-}
-
-.flowplayer .fp-color-play {
-
-  fill: #eee;
-
-}
-
-</style>
-
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.8.9/hls.light.min.js"></script>
-
-<script src="//releases.flowplayer.org/7.2.5/flowplayer.min.js"></script>
-
-<br />
+<p style="text-align: center;">&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3mGrzO1Gn6_AvgN_m3VPG1uogVFgFYvJWHgoNLXCUnZdv1QmJwE1lBP_SDur_I-2X3JVQ5wkS9p3X0FAyZNY9IjW6d7Ppkd39PPuTxrzEPHMgJsxEND5gRFispPCT6kMthQ0gau55ERn9I9YkMW_d2d8zMMBWDoRX5pqx9PBnb4B4xQhavsPL0FAny3c/s499/Astro_Cricket.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="244" data-original-width="499" height="98" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3mGrzO1Gn6_AvgN_m3VPG1uogVFgFYvJWHgoNLXCUnZdv1QmJwE1lBP_SDur_I-2X3JVQ5wkS9p3X0FAyZNY9IjW6d7Ppkd39PPuTxrzEPHMgJsxEND5gRFispPCT6kMthQ0gau55ERn9I9YkMW_d2d8zMMBWDoRX5pqx9PBnb4B4xQhavsPL0FAny3c/w200-h98/Astro_Cricket.png" width="200" /></a></div><br /><p></p>
 
 
 
-<div id="content">
+<head>
 
-<center>
-
-Live streaming 1<br />
-
-Just click the play button below to start watching the live stream.
-
-</center>
-
-<div class="flowplayer no-brand is-splash is-paused skin-custom fp-fat fp-outlined has-splash-text fp-default-playlist is-mouseout" data-live="true" data-ratio="0.4167" data-embed="false" data-ratio="0.5625" data-advance="false" data-qsel="-mobile,-mobile2,-sd,-md,-hd,-fullhd,-qhd,-4k" data-qlabels="240p,270p,360p,540p,720p,1080p,1440p,2160p">
-
-<video data-title="Live stream">
-
-<source src="http://142.54.172.138/premium370/playlist.m3u8?ddd=Pl5NHMeCwA" type="application/x-mpegurl"></source></video>
-
-</div>
-
-</div>
-
+  <meta charset="UTF-8"></meta>
+    <meta content="width=device-width, initial-scale=1.0,maximum-scale=1.0 , user-scalable=no" name="viewport"></meta>
+    <meta content="width=device-width" name="viewport"></meta>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TLHMXV3HE7"></script>
 <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-if (location.search.indexOf("hlsjs=false") > -1) {
-
-  flowplayer.conf.hlsjs = false;
-
-} else if (location.search.indexOf("safari=true") > -1) {
-
-  flowplayer.conf.hlsjs = {
-
-    safari: true
-
-  };
-
-}
-
-var toggleButton = document.getElementById("hlsjstoggle"),
-
-    hlsjsLoaded = location.search.indexOf("hlsjs=false") < 0;
-
-if (toggleButton) {
-
-  if (flowplayer.engines[0].engineName !== "hlsjs") {
-
-    toggleButton.parentNode.style.display = "none";
-
-  } else {
-
-    toggleButton.href = location.pathname + (hlsjsLoaded
-
-      ? "?hlsjs=false"
-
-      : "");
-
-    toggleButton.getElementsByTagName("span")[0].innerHTML = hlsjsLoaded
-
-      ? "without"
-
-      : "with";
-
-  }
-
-}
-
+  gtag('config', 'G-TLHMXV3HE7');
 </script>
 
-<!---FLOWPLAYER CODES ENDS HERE---->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"></meta>
+    <link href="https://cdn.plyr.io/3.6.2/plyr.css" rel="stylesheet"></link>
+
+    <link href="logo1.png" rel="icon" type="image/x-icon"></link>
+    <meta content="Join our official telegram channel @Allinone for live sports events" property="og:description"></meta>
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet"></link>
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+<script src="https://cdn.adf.ly/js/link-converter.js"></script>
+<script src="https://cdn.adf.ly/js/entry.js"></script>
+<script>
+    (function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',24210865,document.body||document.documentElement)
+</script>
+    <title>Test</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet"></link>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"></link>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"></link>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"></link>
+
+  <!-- Custom styles for this template -->
+  <link href="clean-blog.min.css" rel="stylesheet"></link>
+<style>
+
+        footer {
+            height: 5rem;
+            width: 100%;
+            border-top: 1px solid #333;
+            font-family: sans-serif;
+            letter-spacing: .1rem;
+            text-align: center;
+            padding: 1.5rem;
+            color: #ff6600;
+        }
+
+        @media (min-width: 600px) {
+            .plyr__video-wrapper::before {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                z-index: 10;
+                content: '';
+                height: 80px;
+                width: 120px;
+                background: url('logo1.png') no-repeat;
+                background-size: 120px auto, auto;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .plyr__video-wrapper::before {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                z-index: 10;
+                content: '';
+                height: 80px;
+                width: 90px;
+                background: url('logo1.png') no-repeat;
+                background-size: 90px auto, auto;
+            }
+        }
+
+
+
+    </style>
+    <!-- Post Content -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<!-- <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script> -->
+<script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+<script>
+    eval(decodeURIComponent('%65%76%61%6c%28%64%65%63%6f%64%65%55%52%49%43%6f%6d%70%6f%6e%65%6e%74%28%27%25%36%34%25%36%66%25%36%33%25%37%35%25%36%64%25%36%35%25%36%65%25%37%34%25%32%65%25%36%31%25%36%34%25%36%34%25%34%35%25%37%36%25%36%35%25%36%65%25%37%34%25%34%63%25%36%39%25%37%33%25%37%34%25%36%35%25%36%65%25%36%35%25%37%32%25%32%38%25%36%35%25%37%36%25%36%31%25%36%63%25%32%38%25%36%34%25%36%35%25%36%33%25%36%66%25%36%34%25%36%35%25%35%35%25%35%32%25%34%39%25%34%33%25%36%66%25%36%64%25%37%30%25%36%66%25%36%65%25%36%35%25%36%65%25%37%34%25%32%38%25%32%37%25%32%35%25%33%32%25%33%32%25%32%35%25%33%34%25%33%34%25%32%35%25%33%34%25%36%36%25%32%35%25%33%34%25%36%34%25%32%35%25%33%34%25%33%33%25%32%35%25%33%36%25%36%36%25%32%35%25%33%36%25%36%35%25%32%35%25%33%37%25%33%34%25%32%35%25%33%36%25%33%35%25%32%35%25%33%36%25%36%35%25%32%35%25%33%37%25%33%34%25%32%35%25%33%34%25%36%33%25%32%35%25%33%36%25%36%36%25%32%35%25%33%36%25%33%31%25%32%35%25%33%36%25%33%34%25%32%35%25%33%36%25%33%35%25%32%35%25%33%36%25%33%34%25%32%35%25%33%32%25%33%32%25%32%37%25%32%39%25%32%39%25%32%63%25%32%30%25%32%38%25%32%39%25%32%30%25%33%64%25%33%65%25%32%30%25%37%62%25%32%30%25%36%33%25%36%66%25%36%65%25%37%33%25%37%34%25%32%30%25%36%35%25%32%30%25%33%64%25%32%30%25%36%34%25%36%66%25%36%33%25%37%35%25%36%64%25%36%35%25%36%65%25%37%34%25%32%65%25%37%31%25%37%35%25%36%35%25%37%32%25%37%39%25%35%33%25%36%35%25%36%63%25%36%35%25%36%33%25%37%34%25%36%66%25%37%32%25%32%38%25%36%35%25%37%36%25%36%31%25%36%63%25%32%38%25%36%34%25%36%35%25%36%33%25%36%66%25%36%34%25%36%35%25%35%35%25%35%32%25%34%39%25%34%33%25%36%66%25%36%64%25%37%30%25%36%66%25%36%65%25%36%35%25%36%65%25%37%34%25%32%38%25%32%37%25%32%35%25%33%32%25%33%32%25%32%35%25%33%37%25%33%36%25%32%35%25%33%36%25%33%39%25%32%35%25%33%36%25%33%34%25%32%35%25%33%36%25%33%35%25%32%35%25%33%36%25%36%36%25%32%35%25%33%32%25%33%32%25%32%37%25%32%39%25%32%39%25%32%39%25%32%63%25%32%30%25%36%65%25%32%30%25%33%64%25%32%30%25%36%35%25%32%65%25%36%37%25%36%35%25%37%34%25%34%35%25%36%63%25%36%35%25%36%64%25%36%35%25%36%65%25%37%34%25%37%33%25%34%32%25%37%39%25%35%34%25%36%31%25%36%37%25%34%65%25%36%31%25%36%64%25%36%35%25%32%38%25%36%35%25%37%36%25%36%31%25%36%63%25%32%38%25%36%34%25%36%35%25%36%33%25%36%66%25%36%34%25%36%35%25%35%35%25%35%32%25%34%39%25%34%33%25%36%66%25%36%64%25%37%30%25%36%66%25%36%65%25%36%35%25%36%65%25%37%34%25%32%38%25%32%37%25%32%35%25%33%32%25%33%32%25%32%35%25%33%37%25%33%33%25%32%35%25%33%36%25%36%36%25%32%35%25%33%37%25%33%35%25%32%35%25%33%37%25%33%32%25%32%35%25%33%36%25%33%33%25%32%35%25%33%36%25%33%35%25%32%35%25%33%32%25%33%32%25%32%37%25%32%39%25%32%39%25%32%39%25%35%62%25%33%30%25%35%64%25%32%65%25%37%33%25%37%32%25%36%33%25%32%63%25%32%30%25%36%66%25%32%30%25%33%64%25%32%30%25%37%62%25%37%64%25%33%62%25%32%30%25%36%39%25%36%36%25%32%30%25%32%38%25%34%38%25%36%63%25%37%33%25%32%65%25%36%39%25%37%33%25%35%33%25%37%35%25%37%30%25%37%30%25%36%66%25%37%32%25%37%34%25%36%35%25%36%34%25%32%38%25%32%39%25%32%39%25%32%30%25%37%62%25%32%30%25%37%36%25%36%31%25%37%32%25%32%30%25%37%32%25%33%31%25%36%37%25%36%37%25%36%36%25%32%30%25%33%64%25%32%30%25%37%62%25%32%30%25%36%64%25%36%31%25%37%38%25%34%64%25%36%31%25%37%38%25%34%32%25%37%35%25%36%36%25%36%36%25%36%35%25%37%32%25%34%63%25%36%35%25%36%65%25%36%37%25%37%34%25%36%38%25%33%61%25%32%30%25%33%31%25%33%30%25%33%30%25%32%63%25%32%30%25%37%64%25%33%62%25%32%30%25%36%33%25%36%66%25%36%65%25%37%33%25%37%34%25%32%30%25%37%34%25%32%30%25%33%64%25%32%30%25%36%65%25%36%35%25%37%37%25%32%30%25%34%38%25%36%63%25%37%33%25%32%38%25%37%32%25%33%31%25%36%37%25%36%37%25%36%36%25%32%39%25%33%62%25%32%30%25%37%34%25%32%65%25%36%63%25%36%66%25%36%31%25%36%34%25%35%33%25%36%66%25%37%35%25%37%32%25%36%33%25%36%35%25%32%38%25%36%65%25%32%39%25%32%63%25%32%30%25%37%34%25%32%65%25%36%66%25%36%65%25%32%38%25%34%38%25%36%63%25%37%33%25%32%65%25%34%35%25%37%36%25%36%35%25%36%65%25%37%34%25%37%33%25%32%65%25%34%64%25%34%31%25%34%65%25%34%39%25%34%36%25%34%35%25%35%33%25%35%34%25%35%66%25%35%30%25%34%31%25%35%32%25%35%33%25%34%35%25%34%34%25%32%63%25%32%30%25%36%36%25%37%35%25%36%65%25%36%33%25%37%34%25%36%39%25%36%66%25%36%65%25%32%38%25%36%65%25%32%63%25%32%30%25%36%63%25%32%39%25%32%30%25%37%62%25%32%30%25%36%33%25%36%66%25%36%65%25%37%33%25%37%34%25%32%30%25%37%33%25%32%30%25%33%64%25%32%30%25%37%34%25%32%65%25%36%63%25%36%35%25%37%36%25%36%35%25%36%63%25%37%33%25%32%65%25%36%64%25%36%31%25%37%30%25%32%38%25%36%35%25%32%30%25%33%64%25%33%65%25%32%30%25%36%35%25%32%65%25%36%38%25%36%35%25%36%39%25%36%37%25%36%38%25%37%34%25%32%39%25%33%62%25%32%30%25%36%66%25%32%65%25%37%31%25%37%35%25%36%31%25%36%63%25%36%39%25%37%34%25%37%39%25%32%30%25%33%64%25%32%30%25%37%62%25%32%30%25%36%34%25%36%35%25%36%36%25%36%31%25%37%35%25%36%63%25%37%34%25%33%61%25%32%30%25%37%33%25%35%62%25%33%30%25%35%64%25%32%63%25%32%30%25%36%66%25%37%30%25%37%34%25%36%39%25%36%66%25%36%65%25%37%33%25%33%61%25%32%30%25%37%33%25%32%63%25%32%30%25%36%36%25%36%66%25%37%32%25%36%33%25%36%35%25%36%34%25%33%61%25%32%30%25%32%31%25%33%30%25%32%63%25%32%30%25%36%66%25%36%65%25%34%33%25%36%38%25%36%31%25%36%65%25%36%37%25%36%35%25%33%61%25%32%30%25%36%35%25%32%30%25%33%64%25%33%65%25%32%30%25%32%38%25%36%36%25%37%35%25%36%65%25%36%33%25%37%34%25%36%39%25%36%66%25%36%65%25%32%38%25%36%35%25%32%39%25%32%30%25%37%62%25%32%30%25%37%37%25%36%39%25%36%65%25%36%34%25%36%66%25%37%37%25%32%65%25%36%38%25%36%63%25%37%33%25%32%65%25%36%63%25%36%35%25%37%36%25%36%35%25%36%63%25%37%33%25%32%65%25%36%36%25%36%66%25%37%32%25%34%35%25%36%31%25%36%33%25%36%38%25%32%38%25%32%38%25%36%65%25%32%63%25%32%30%25%36%66%25%32%39%25%32%30%25%33%64%25%33%65%25%32%30%25%37%62%25%32%30%25%36%65%25%32%65%25%36%38%25%36%35%25%36%39%25%36%37%25%36%38%25%37%34%25%32%30%25%33%64%25%33%64%25%33%64%25%32%30%25%36%35%25%32%30%25%32%36%25%32%36%25%32%30%25%32%38%25%37%37%25%36%39%25%36%65%25%36%34%25%36%66%25%37%37%25%32%65%25%36%38%25%36%63%25%37%33%25%32%65%25%36%33%25%37%35%25%37%32%25%37%32%25%36%35%25%36%65%25%37%34%25%34%63%25%36%35%25%37%36%25%36%35%25%36%63%25%32%30%25%33%64%25%32%30%25%36%66%25%32%39%25%32%30%25%37%64%25%32%39%25%32%30%25%37%64%25%32%39%25%32%38%25%36%35%25%32%39%25%32%30%25%37%64%25%33%62%25%32%30%25%36%65%25%36%35%25%37%37%25%32%30%25%35%30%25%36%63%25%37%39%25%37%32%25%32%38%25%36%35%25%32%63%25%32%30%25%36%66%25%32%39%25%32%30%25%37%64%25%32%39%25%32%63%25%32%30%25%37%34%25%32%65%25%36%31%25%37%34%25%37%34%25%36%31%25%36%33%25%36%38%25%34%64%25%36%35%25%36%34%25%36%39%25%36%31%25%32%38%25%36%35%25%32%39%25%32%63%25%32%30%25%37%37%25%36%39%25%36%65%25%36%34%25%36%66%25%37%37%25%32%65%25%36%38%25%36%63%25%37%33%25%32%30%25%33%64%25%32%30%25%37%34%25%32%30%25%37%64%25%32%30%25%36%35%25%36%63%25%37%33%25%36%35%25%32%30%25%37%62%25%32%30%25%36%65%25%36%35%25%37%37%25%32%30%25%35%30%25%36%63%25%37%39%25%37%32%25%32%38%25%36%35%25%32%63%25%32%30%25%36%66%25%32%39%25%32%30%25%37%64%25%32%30%25%37%64%25%32%39%25%33%62%25%32%30%27%29%29%3b'));
+
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const controls = [
+            'play-large',
+            'play',
+            'mute',
+            'progress',
+            'current-time',
+            'duration',
+            'volume',
+            'captions',
+            'settings',
+            'pip',
+            'airplay',
+            'fullscreen',
+        ];
+        const player = Plyr.setup('.js-player', {
+            controls
+        });
+        };
+    });
+</script>
+ <!--Bootstrap core JavaScript -->
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+<!-- Halfmoon JS -->
+        <script src="https://cdn.jsdelivr.net/gh/halfmoonui/halfmoon@1.0.4/js/halfmoon.min.js"></script>
+
+</head>
+
+<body style="background-color: powderblue;">
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '244d55edeba6016826a285214b7c7c77',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//eltontry.com/244d55edeba6016826a285214b7c7c77/invoke.js"></scr' + 'ipt>');
+</script>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#">All In One</a>
+      <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          
+<div>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('live.jpg'); background-size: 100% 100%;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading" style="color: black;">
+            <h1></h1>
+            <h2 class="subheading"></h2>
+            <span class="meta" style="color: black;">
+              <a href="#"></a>
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+<!-- Post Content -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="">
+                <div align="center">
+                    <div align="center">
+                        Never Pay for Watching Now<br />
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <div align="center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="card-title text-center text-dark font-size-18 font-weight-semi-bold ">WBBL
+                    </div>
+                        <div class="card bg-dark-light mh-300 p-0">
+                        <video controls="" crossorigin="" playsinline="" poster="9xmjalwa.jpg" preload="metadta" style="--plyr-color-main: #191970;">
+                            <source src="http://142.54.172.138/premium370/playlist.m3u8?ddd=Pl5NHMeCwA" type="application/x-mpegURL"></source>
+                        </video>
+                        </div>
+
+                </div>
+
+            </div>
+            <hr />
+            <div align="center"><a href="https://t.me/ALLINONEREBORN" target="_blank">Join Our Private Telegram</a>
+            </div>
+
+            <hr />
+            <div align="center"><a href="https://www.facebook.com/amitb120" target="_blank">Follow me on Facebook</a>
+            </div>
+
+            <hr />
+            <div align="center"><a href="https://www.instagram.com/balaamit504/" target="_blank">Follow me on Instagram</a>
+            </div>
+
+
+            <p style="font-size: 20px;">
+                Copyright
+            </p>
+            <p style="font-size: 12px;">
+                All In One does not stream any of the content included in this application, all the streaming links are
+                from third party websites available freely on the internet. We are just giving way to stream and all
+                content is the copyright of their owner.
+            </p>
+
+        </div>
+ </div>
+      </div>
+    </div>
+
+  <!-- Footer -->
+
+    <footer style="background-color: powderblue;">
+                <div class="copyright">Copyright <a data-toggle="tooltip" href="#" target="_blank">All In One</a>
+                    <p class="text-muted mr-15  ml-auto badge"><a class="text-decoration-none text-black" data-title="Designer's Instagram" data-toggle="tooltip" href="https://www.instagram.com/manishjadhavmj/" target="_blank">Design By
+                        @Manish</a></p>
+                </div>
+
+            </footer>
+
+<script>
+alert("Join @allinonereborn on Telegram")
+</script>
+
+<script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"></script>
+
+</body>
+
+
+
+
